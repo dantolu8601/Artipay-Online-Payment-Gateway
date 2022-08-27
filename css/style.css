@@ -1,0 +1,70 @@
+
+
+@font-face {
+    font-family: gilroyxb;
+    src: url(/gilroy/radomir_tinkov_-_gilroy-extrabold-webfont.woff2) format('woff2'),
+         url(/gilroy/radomir_tinkov_-_gilroy-extrabold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: gilroyl;
+    src: url(/gilroy/radomir_tinkov_-_gilroy-light-webfont.woff2) format('woff2'),
+         url(/gilroy/radomir_tinkov_-_gilroy-light-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: graphik-medium;
+    src: url(/graphik/graphikmedium-webfont.woff2) format('woff2'),
+         url(/graphik/graphikmedium-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+color: #021C34;
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+
+}
+
+h2{
+    font-family: gilroyxb;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.15px;
+    
+   
+}
+
+p{
+    font-family: graphik-medium;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    
+   
+}
