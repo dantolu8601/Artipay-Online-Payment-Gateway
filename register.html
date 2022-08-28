@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration_Paystack</title>
+    <link
+      rel="shortcut icon"
+      href="images/favicon 32 x 32.png"
+      sizes="32x32"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href=css/reg.css />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="RegLogo">
+      <a href="">
+        <img src="images/Paystack-Reg logo.svg" alt="PaystackLogo"
+      /></a>
+    </div>
+
+    <div class="form-container">
+      <h1>CREATE YOUR ACCOUNT</h1>
+
+      <form action="">
+        <div class="country">
+          <div class="flexCountry">
+            <label for="country">country</label>
+            <a class="other" href="">other countries</a>
+          </div>
+
+          <div class="flexSelect">
+            <select name="country" id="selectCountry">
+              <option disabled>Select Country</option>
+              <option value="Ghana">Ghana</option>
+              <option value="Nigeria" selected>Nigeria</option>
+              <option value="South Africa">South Africa</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="Business-Name">
+          <label for="businessName">Business Name</label>
+          <input type="text" name="businessName" id="businessName" />
+        </div>
+
+        <div class="First-Name">
+          <label for="firstName"> First name </label>
+          <input type="text" name="firstName" id="firstName" />
+        </div>
+
+        <div class="last-Name">
+          <label for="lastName">Last Name </label>
+          <input type="text" name="lastName" id="lastName" />
+        </div>
+
+        <div class="Email-Address">
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <div class="Phone-Number">
+          <label for="phoneNumber">Phone Number</label>
+          <div class="flexPhone">
+            <select id="country-code">
+              <option value="+234">+234</option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+            </select>
+
+            <input type="tel" name="phoneNumber" id="Number" />
+          </div>
+        </div>
+
+        <div class="Password">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+
+        <div class="Business-Type">
+          <h2 class="businessType">What type of business do you own?</h2>
+          <div class="Stater-Business">
+            <input
+              type="radio"
+              name="businessType"
+              id="Starter"
+              value="Starter Business"
+            />
+            <label for="Starter">Starter Business</label>
+            <p>
+              I'm testing my ideas with real customers, and preparing to
+              register my company
+            </p>
+          </div>
+          <div class="Registered-Business">
+            <input
+              type="radio"
+              name="businessType"
+              id="Registered"
+              value="Registered Business"
+            />
+            <label for="Registered">Registered Business</label>
+            <p>
+              My business has the approval, documentation, and licences required
+              to operate legally
+            </p>
+          </div>
+        </div>
+
+        <div class="Developer">
+          <h2 class="softDeveloper">Are you a software developer?</h2>
+          <input
+            type="radio"
+            name="softDeveloper"
+            id="A-Developer"
+            value="A developer"
+          />
+          <label for="A-Developer">Yes, I am</label>
+
+          <input
+            type="radio"
+            name="softDeveloper"
+            id="Not-A-Developer"
+            value="Not A developer"
+          />
+          <label for="Not-A-Developer">No, I'm not</label>
+        </div>
+
+        <div class="consent">
+          <div class="flexCheckbox">
+            <input type="checkbox" name="consent" id="ConsentBox" />
+          </div>
+          <div class="flexConsent">
+            <p>
+              I consent to the collection and processing of my personal data in
+              line with data regulations as described in the
+              <a href="" class="policy"> Paystack Privacy Policy</a>
+            </p>
+          </div>
+        </div>
+
+        <button class="accept" type="submit">Create My Acount</button>
+
+        <p class="info">
+          By clicking the "Create your account" button, you agree to Paystack's
+          <a href="" class="terms"> terms of acceptable use</a>
+        </p>
+      </form>
+    </div>
+
+    <div class="alreadyUser">
+      <p>Already have an account? <a href="" class="login">Login</a></p>
+    </div>
+
+    <footer>
+      <a href="	">
+        <button>
+          <i class="fa-regular fa-circle-question"></i> SUPPORT
+        </button></a
+      >
+    </footer>
+  </body>
+</html>
