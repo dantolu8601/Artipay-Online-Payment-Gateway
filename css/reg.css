@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: url(images/Reg-background.svg);
+  background: url(../images/Reg-background.svg);
   background-size: cover;
   background-color: #011b33;
   color: #57584e;
