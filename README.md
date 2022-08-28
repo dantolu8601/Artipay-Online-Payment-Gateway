@@ -26,7 +26,7 @@ Use this section to recap over some of your major learnings while working throug
 
 ## Author
 
-- Website - (https://www.your-site.com)
+- Website - (https://techathonian.com/)
 
 - Twitter - [Techathonian](https://www.twitter.com/Techathonian)
 
@@ -34,7 +34,7 @@ Use this section to recap over some of your major learnings while working throug
 
 ## Acknowledgments
 
-Project manager- 
+Project manager-Lamo  
 Html,css and js mentor- Ace Adonis
 Product designer mentor-
 Technical Writing mentor-
