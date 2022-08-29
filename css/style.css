@@ -11,16 +11,6 @@
 
 
 
-
-@font-face {
-    font-family: gilroyl;
-    src: url(/gilroy/radomir_tinkov_-_gilroy-light-webfont.woff2) format('woff2'),
-         url(/gilroy/radomir_tinkov_-_gilroy-light-webfont.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 @font-face {
     font-family: graphik-medium;
     src: url(/graphik/graphikmedium-webfont.woff2) format('woff2'),
@@ -67,4 +57,13 @@ p{
     letter-spacing: 0.15px;
     
    
+}
+
+@media only screen and (max-width:450px) {
+    .container{
+        display: inline-block;
+        
+
+        margin: 20px;
+}
 }
