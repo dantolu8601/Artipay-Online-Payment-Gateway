@@ -6,9 +6,19 @@
 body {
   background: url(../images/Reg-background.svg);
   background-size: cover;
+  background-attachment: fixed;
   background-color: #011b33;
   color: #57584e;
   font-family: Graphik, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+main {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  overflow: auto;
 }
 
 .RegLogo {
@@ -225,5 +235,5 @@ footer button:hover {
 footer a {
   position: fixed;
   bottom: 20px;
-  right: 5px;
+  right: 20px;
 }
