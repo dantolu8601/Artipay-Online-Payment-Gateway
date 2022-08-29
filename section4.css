@@ -1,0 +1,28 @@
+html{
+    width: 1440px;
+}
+.section4{
+    display: flex;
+    margin-top: 5em;
+    margin-left: 18em;
+    background-color: #ffffff;
+    height: 300px;
+    width: 530px;
+    }
+.radar{
+    width: 40%;
+    height: 100%;
+    margin-right: 4em;  
+    }
+
+h2{
+   margin-top: 0.5em;
+   color: #021C34;
+   font-size: 19px;
+    }
+p{
+    margin-bottom: 3em;
+    font-size: 11px;
+    color: #021C34;
+    margin-right: 3em;
+    }
