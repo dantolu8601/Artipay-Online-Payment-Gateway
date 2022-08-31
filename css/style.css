@@ -1,0 +1,10 @@
+:root{
+    --lightgreen:rgb(241, 254, 244);
+    --darknavyblue:rgb(1, 50, 94);
+    --lightgreen:rgb(59 183 94);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
