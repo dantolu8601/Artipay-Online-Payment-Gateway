@@ -1,10 +1,113 @@
-:root{
-    --lightgreen:rgb(241, 254, 244);
-    --darknavyblue:rgb(1, 50, 94);
-    --lightgreen:rgb(59 183 94);
-}
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+body {
+  margin: 50px;
+  line-height: 1.5;
+}
+div {
+  display: block;
+}
+@media screen and (max-width: 1440px){
+  .container{
+    padding: 0px 16px 0px 16px;
   }
+  
+}
+.container{
+  margin: 0px auto 0px auto;
+  width: 100%;
+  position: relative;
+  max-width: 1040px;
+  padding: 0px 16px 0px 16px;
+}
+.container--1ogo {
+  max-width: 1240px;
+}
+@media screen and (max-width: 1440px){
+  .c-section-header {
+    display: block;
+  }
+}
+.c-section-header{
+  position: relative;
+  margin-bottom: 50px;
+}
+.text {
+  width: 70%;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0 0 20px 0;
+  color: #011b33;
+}
+p.text-paragraph {
+  font-size: 1.5rem;
+  width: 80%;
+  line-height: 1.5;
+  letter-spacing: -0.01rem;
+  margin: 0px 0px 0px 0px;
+  color: #011b33;
+}
+.c-logo-row--has-grid {
+  margin-bottom: 5px;
+}
+.c-logo-row {
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100px;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.c-logo-row--has-grid 
+.c-logo:first-child {
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+
+}
+.c-logo:first-child {
+  padding-left: 0;
+}
+.c-logo-row--has-grid 
+.c-logo {
+  width: 100%;
+  max-width: 150px;
+  line-height: 0;
+  webkit user-select: none;
+  moz-user-select:none;
+  ms-user-select:none;
+  position: relative;
+}
+.c-logo {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 28px;
+  -ms-flex-pack: center;
+  align-items: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  webkit user-select: none;
+  user-select:none;
+}
+.c-logo>img {
+  max-height: 100%;
+}
+img {
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style:none;
+  border-left-style:none;
+}
