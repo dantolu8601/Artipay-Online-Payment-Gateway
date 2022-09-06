@@ -1,0 +1,111 @@
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.trusted    {
+    background: linear-gradient(to right, rgb(29,5,83), rgb(55,7,93), rgb(68,13,130));
+    text-align: center;
+}
+
+.ps     {
+    padding: 70px;
+}   
+
+.trustedtxt     {
+    color: white;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.payment    {
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;   
+    color: rgb(29,5,83);
+    width: 60%;
+}
+
+.artipay    {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;   
+    background-image:  linear-gradient(90deg, rgb(29,5,83), rgb(55,7,93), rgb(68,13,130));
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 50%;
+    margin-top: 15px;
+}
+
+
+
+@media (min-width:250px)    {
+    .trustedtxt     {
+        color: white;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        padding: 10px;
+    }
+
+    .ps     {
+        padding: 30px;
+    }   
+
+    .payment    {
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;   
+        color: rgb(29,5,83);
+        width: 100%;
+    }
+
+    .artipay    {
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;   
+        background-image:  linear-gradient(90deg, rgb(29,5,83), rgb(55,7,93), rgb(68,13,130));
+        -webkit-background-clip: text;
+        color: transparent;
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+
+@media (min-width:800px)    {
+    .ps     {
+        padding: 70px;
+    }   
+    
+    .trustedtxt     {
+        color: white;
+        font-size: 45px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        padding: 20px;
+    }
+    
+    .payment    {
+        font-size: 36px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;   
+        color: rgb(29,5,83);
+        width: 60%;
+    }
+    
+    .artipay    {
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;   
+        background-image:  linear-gradient(90deg, rgb(29,5,83), rgb(55,7,93), rgb(68,13,130));
+        -webkit-background-clip: text;
+        color: transparent;
+        width: 50%;
+        margin-top: 15px;
+    }
+    
+}
