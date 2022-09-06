@@ -4,7 +4,7 @@ var capital = document.getElementById("upperCase");
 var character = document.getElementById("specialCharacter");
 var number = document.getElementById("oneNumber");
 var length = document.getElementById("minimunCharacter");
-
+// var submit = document.getElementsByClassName("accept")
 
 
 // displayig the password validation messages when password field is being clicked
@@ -70,4 +70,15 @@ passwordInput.onfocus = function() {
   // toggle the icon
   this.classList.toggle("bi-eye");});
 
-            
+  //function for visited input field that are invalid
+  {
+    let f = function() {
+      this.classList.add('touched')
+    }
+    document
+      .querySelectorAll('input')
+      .forEach((e) => {
+        e.addEventListener('blur', f, false)
+        e.addEventListener('keydown', f, false)
+      })
+  }

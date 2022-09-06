@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registration_Paystack</title>
+    <title>Registration_Artipay</title>
     <link
       rel="shortcut icon"
       href="images/favicon 32 x 32.png"
@@ -23,13 +23,19 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <main>
       <div class="RegLogo">
-        <a href="">
-          <img src="images/Paystack-Reg logo.svg" alt="PaystackLogo"
+        <a href="index.html">
+          <img src="images/photo_2022-09-06_20-36-11 1.svg" alt="ArtipayLogo"
         /></a>
       </div>
 
@@ -77,11 +83,11 @@
             <label for="phoneNumber">Phone Number</label>
             <div class="flexPhone">
               <select id="country-code" required>
-                <option value="+234">+234</option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
+                <option value="+233">+233</option>
+                <option value="+234" selected>+234</option>
+                <option value="+27">+27</option>
+                <option value="+1">+1</option>
+                <option value="+33">+33</option>
               </select>
 
               <input type="tel" name="phoneNumber" id="Number" required />
@@ -105,29 +111,46 @@
             <h3>Password must contain the following</h3>
             <ul class="PasswordValidator">
               <li class="checker">
-                <input type="radio" name="Lowercase" id="lowerCase" />
+                <input
+                  type="radio"
+                  name="Lowercase"
+                  onclick="this.checked=false;"
+                  id="lowerCase"
+                />
                 One lowercase letter
               </li>
               <li class="checker">
-                <input type="radio" name="Uppercase" id="upperCase" />
+                <input
+                  type="radio"
+                  name="Uppercase"
+                  onclick="this.checked=false;"
+                  id="upperCase"
+                />
                 One uppercase letter
               </li>
               <li class="checker">
                 <input
                   type="radio"
                   name="SpecialCharacter"
+                  onclick="this.checked=false;"
                   id="specialCharacter"
                 />
                 One special character
               </li>
               <li class="checker">
-                <input type="radio" name="OneNumber" id="oneNumber" />
+                <input
+                  type="radio"
+                  name="OneNumber"
+                  onclick="this.checked=false;"
+                  id="oneNumber"
+                />
                 One number
               </li>
               <li class="checker">
                 <input
                   type="radio"
                   name="MinimumCharacter"
+                  onclick="this.checked=false;"
                   id="minimunCharacter"
                 />
                 8 characters minimum
@@ -196,7 +219,7 @@
               <p>
                 I consent to the collection and processing of my personal data
                 in line with data regulations as described in the
-                <a href="" class="policy"> Paystack Privacy Policy</a>
+                <a href="" class="policy"> Artipay Privacy Policy</a>
               </p>
             </div>
           </div>
@@ -204,8 +227,7 @@
           <button class="accept" type="submit">Create My Acount</button>
 
           <p class="info">
-            By clicking the "Create your account" button, you agree to
-            Paystack's
+            By clicking the "Create your account" button, you agree to Artipay's
             <a href="" class="terms"> terms of acceptable use</a>
           </p>
         </form>

@@ -1,15 +1,19 @@
+:root {
+  --navyblue: #1d0553;
+  --purple1: #37075d;
+  --purple2: #440d82;
+  --keycolor1: #c211a0;
+  --keycolor2: #9d0580;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 body {
-  background: url(../images/Reg-background.svg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: #011b33;
   color: #57584e;
-  font-family: Graphik, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 main {
   position: fixed;
@@ -17,6 +21,12 @@ main {
   right: 0px;
   top: 0px;
   bottom: 0px;
+  background: linear-gradient(
+    109.25deg,
+    var(--navyblue) 7.93%,
+    var(--purple1) 60.97%,
+    var(--purple2) 91.81%
+  );
 }
 
 .RegLogo {
@@ -63,16 +73,25 @@ main {
   box-shadow: none;
 }
 
+#email:foucs,
+#password:foucs {
+  outline: 1px solid var(--navyblue);
+}
+
 .accept {
   width: 100%;
-  background-color: #3bb75e;
-  border-color: #3bb75e;
+  background-color: var(--keycolor2);
+  border-color: var(--keycolor2);
   border-radius: 5px;
   padding: 15px;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 25px;
+}
+
+.accept:hover {
+  background-color: var(--keycolor1);
 }
 
 .newUser {
@@ -112,7 +131,7 @@ footer button {
   height: 40px;
   padding: 0 5px;
   border-radius: 20px;
-  background: #1a3d5d;
+  background: var(--keycolor1);
   border: none;
   color: rgba(255, 255, 255, 0.747);
   font-size: 15px;
@@ -121,10 +140,33 @@ footer button {
 
 footer button:hover {
   color: #fff;
+  background-color: var(--keycolor2);
 }
 
 footer a {
   position: fixed;
   bottom: 20px;
   right: 5px;
+}
+/* Placing toggle icon in the password field */
+#togglePassword {
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+/* If a required input has been touched and is valid*/
+.touched:required:valid {
+  outline: 1px solid green;
+}
+
+/* If a required input has been touched and is invalid*/
+.touched:required:invalid {
+  outline: 1px solid red;
+}
+
+/* Mobile View */
+@media screen and (max-width: 428px) {
+  .form-container {
+    width: 90%;
+  }
 }
