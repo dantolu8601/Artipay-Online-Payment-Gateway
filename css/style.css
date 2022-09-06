@@ -24,12 +24,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-color: #021C34;
+color: white;
 
 }
 body{
     height: 100vh;
     width: 100%;
+    background-image: linear-gradient( #1D0553 0%,#37075D 63.23%,#440D82 100%);
     
 }
 .container{
