@@ -10,9 +10,14 @@ The designs were created to the following widths:
 ## Colors
 
 ### Primary
-    --lightgreen:rgb(241, 254, 244);
-    --darknavyblue:rgb(1, 50, 94);
-    --lightgreen:rgb(59 183 94); 
+
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
 
 ### Body Copy
 
@@ -20,6 +25,7 @@ The designs were created to the following widths:
 
 ### Font
 
-- system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+- 
 - Weights: 400
 
+- Weights: 400

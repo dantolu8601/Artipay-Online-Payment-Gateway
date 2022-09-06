@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artipay</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <main>
+        <div class="RegLogo">
+          <a href="">
+            <img src="images/logo.png" alt="artipayLogo"
+          /></a>
+        </div>
+  
+        <div class="form-container">
+          <h1>CREATE YOUR ACCOUNT</h1>
+  
+          <form action="">
+            <div class="country">
+              <div class="flexCountry">
+                <label for="country">country</label>
+                <a class="other" href="">other countries</a>
+              </div>
+  
+              <div class="flexSelect">
+                <select name="country" id="selectCountry" required>
+                  <option disabled>Select Country</option>
+                  <option value="Ghana">Ghana</option>
+                  <option value="Nigeria" selected>Nigeria</option>
+                  <option value="South Africa">South Africa</option>
+                </select>
+              </div>
+            </div>
+  
+            <div class="Business-Name">
+              <label for="businessName">Business Name</label>
+              <input type="text" name="businessName" id="businessName" required />
+            </div>
+  
+            <div class="First-Name">
+              <label for="firstName"> First name </label>
+              <input type="text" name="firstName" id="firstName" required />
+            </div>
+  
+            <div class="last-Name">
+              <label for="lastName">Last Name </label>
+              <input type="text" name="lastName" id="lastName" required />
+            </div>
+  
+            <div class="Email-Address">
+              <label for="email">Email Address</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+  
+            <div class="Phone-Number">
+              <label for="phoneNumber">Phone Number</label>
+              <div class="flexPhone">
+                <select id="country-code" required>
+                  <option value="+234">+234</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+  
+                <input type="tel" name="phoneNumber" id="Number" required />
+              </div>
+            </div>
+  
+            <div class="Password">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+\-=\[\]{};':\\|,.<>\/?]).{8,}"
+                title="Must contain at least one number and one uppercase, one lowercase letter and a special character, and at least 8 or more characters"
+                required
+              />
+              <i class="bi bi-eye-slash" id="togglePassword"></i>
+            </div>
+  
+            <div id="message">
+              <h3>Password must contain the following</h3>
+              <ul class="PasswordValidator">
+                <li class="checker">
+                  <input type="radio" name="Lowercase" id="lowerCase" />
+                  One lowercase letter
+                </li>
+                <li class="checker">
+                  <input type="radio" name="Uppercase" id="upperCase" />
+                  One uppercase letter
+                </li>
+                <li class="checker">
+                  <input
+                    type="radio"
+                    name="SpecialCharacter"
+                    id="specialCharacter"
+                  />
+                  One special character
+                </li>
+                <li class="checker">
+                  <input type="radio" name="OneNumber" id="oneNumber" />
+                  One number
+                </li>
+                <li class="checker">
+                  <input
+                    type="radio"
+                    name="MinimumCharacter"
+                    id="minimunCharacter"
+                  />
+                  8 characters minimum
+                </li>
+              </ul>
+            </div>
+  
+            <div class="Business-Type">
+              <h2 class="businessType">What type of business do you own?</h2>
+              <div class="Stater-Business">
+                <input
+                  type="radio"
+                  name="businessType"
+                  id="Starter"
+                  value="Starter Business"
+                  required
+                />
+                <label for="Starter">Starter Business</label>
+                <p>
+                  I'm testing my ideas with real customers, and preparing to
+                  register my company
+                </p>
+              </div>
+              <div class="Registered-Business">
+                <input
+                  type="radio"
+                  name="businessType"
+                  id="Registered"
+                  value="Registered Business"
+                  required
+                />
+                <label for="Registered">Registered Business</label>
+                <p>
+                  My business has the approval, documentation, and licences
+                  required to operate legally
+                </p>
+              </div>
+            </div>
+  
+            <div class="Developer">
+              <h2 class="softDeveloper">Are you a software developer?</h2>
+              <input
+                type="radio"
+                name="softDeveloper"
+                id="A-Developer"
+                value="A developer"
+                required
+              />
+              <label for="A-Developer">Yes, I am</label>
+  
+              <input
+                type="radio"
+                name="softDeveloper"
+                id="Not-A-Developer"
+                value="Not A developer"
+                required
+              />
+              <label for="Not-A-Developer">No, I'm not</label>
+            </div>
+  
+            <div class="consent">
+              <div class="flexCheckbox">
+                <input type="checkbox" name="consent" id="ConsentBox" required />
+              </div>
+              <div class="flexConsent">
+                <p>
+                  I consent to the collection and processing of my personal data
+                  in line with data regulations as described in the
+                  <a href="" class="policy"> Paystack Privacy Policy</a>
+                </p>
+              </div>
+            </div>
+  
+            <button class="accept" type="submit">Create My Acount</button>
+  
+            <p class="info">
+              By clicking the "Create your account" button, you agree to
+              Paystack's
+              <a href="" class="terms"> terms of acceptable use</a>
+            </p>
+          </form>
+        </div>
+  
+        <div class="alreadyUser">
+          <p>Already have an account? <a href="" class="login">Login</a></p>
+        </div>
+      </main>
+  
+      <footer>
+        <a href="	">
+          <button>
+            <i class="fa-regular fa-circle-question"></i> SUPPORT
+          </button></a
+        >
+      </footer>
+  
+      <script src="Js/script.js"></script>
+    </body>
+</body>
+</html>
