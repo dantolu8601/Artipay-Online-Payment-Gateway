@@ -188,67 +188,434 @@ li svg{
     width: 7px;  
 }
 
-/* media query for section 1 */
-@media only screen and(max-width:620px){
-    .banner_header{
-        background-color: rgb(12, 12, 54);
-        height: 40px; 
-        margin-top: 0px;
-    }
-    .banner_content{
-        color:white;
-        letter-spacing: 0.25px;
-        padding: 8px 16px;
-        display: flex;
-        justify-content:center;
-        font-family:'poppins',sans-serif;
-        font-size: 14px;
-        font-weight:300; 
-    }
-    ul li{
+/* section 3 */
+#whole{display: flex;
+    background-color: var(--white);
+     margin-left: 30px;}
+    
+    .text{color: rgb(68,13,130);
+        font-family: "poppins";
+         padding-top: 15px;
+       }
+
+       a{text-decoration: none; }
+
+.arrow{width: 22px;
+height: 20px;
+margin-top: 18px;}
+
+.stack{
+    width: 600px;}
+
+.pp{margin-left: 5px;
+    margin-top: 17px;
+    font-weight: bold;
+color: rgb(194,17,160);
+font-family: 'poppins';
+}
+
+#link{display: flex;}
+
+.pa, .pb, .pc, .pd{
+    font-weight: bold;
+    font-size: 14px;
+color: rgb(68,13,130);
+margin-left: 5px;
+margin-top: 10px;}
+
+.diva, .divb, .divc, .divd{display: flex;} 
+
+.pa{padding-right: 150px;}
+
+.tick, .ticka{margin-bottom: 5px;
+}
+
+.ticka{height: 38px;
+width: 40px;
+margin-top: 9px;}
+
+.stack{margin-right: 30px;
+margin-top: 30px;
+display: block;}
+
+.stack1{display: none;}
+
+.dev{font-size: 14px;}
+
+h1{font-weight: 900;}
+@media only screen and (max-width:428px){
+    #whole{
+        flex-direction: column-reverse;}
+    .stack{display: none;}
+    .stack1{display: block;} 
+    .text{
+        margin-left: 0px;
+        margin-right: 0px;} 
+    .pa{padding-right: 20px;} 
+}
+
+/* section 4 */
+
+/* section 5 */
+
+.trusted    {
+    background: linear-gradient(to right, rgb(29,5,83), rgb(55,7,93), rgb(68,13,130));
+    text-align: center;
+}
+
+.ps     {
+    padding: 70px;
+}   
+
+.trustedtxt     {
+    color: white;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.payment    {
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;   
+    color: rgb(68,13,130);
+    width: 60%;
+}
+
+.artipay    {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;   
+    background-image:  linear-gradient(90deg, rgb(29,5,83), rgb(55,7,93), rgb(68,13,130));
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 50%;
+    margin-top: 15px;
+}
+
+
+
+@media (min-width:250px)    {
+    .trustedtxt     {
         color: white;
-        font-weight: 400;
-        list-style: none;
-        cursor:pointer;
-        font-family:'poppins',sans-serif;
-        font-size: 14px;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        padding: 10px;
     }
-    ul li:hover{
-        color:red;
-        opacity: 0.9;
-        
+
+    .ps     {
+        padding: 30px;
+    }   
+
+    .payment    {
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;   
+        color: rgb(29,5,83);
+        width: 100%;
     }
-    ul li a:hover{
-        color:red;
-        opacity: 0.9;
-    }
-    li.box{
-        border-radius: 7px;
-        border: none;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        background-color:rgb(194,17,160);  
-    }
-    .reg_text{
-        text-decoration: none;
-        border-radius: 7px;
-        border: none;
-        margin-top: 25px;
-        margin-left: 50px;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        background-color:rgb(194,17,160);
-        color: white;
-        font-size: 17px;
-        font-weight:bold;
+
+    .artipay    {
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;   
+        background-image:  linear-gradient(90deg, rgb(29,5,83), rgb(55,7,93), rgb(68,13,130));
+        -webkit-background-clip: text;
+        color: transparent;
+        width: 100%;
+        margin-top: 15px;
     }
 }
+
+
+@media (min-width:800px)    {
+    .ps     {
+        padding: 70px;
+    }   
     
+    .trustedtxt     {
+        color: white;
+        font-size: 45px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        padding: 20px;
+    }
+    
+    .payment    {
+        font-size: 36px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;   
+        color: rgb(29,5,83);
+        width: 60%;
+    }
+    
+    .artipay    {
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;   
+        background-image:  linear-gradient(90deg, rgb(29,5,83), rgb(55,7,93), rgb(68,13,130));
+        -webkit-background-clip: text;
+        color: transparent;
+        width: 50%;
+        margin-top: 15px;
+    }
+    
+}
 
 
+
+
+
+
+
+
+
+/* section 6 */
+
+.header {
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 23px;
+  }
+  
+  .header h3 {
+    font-weight: 700;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-bottom: 7px;
+    margin-left: 0px;
+    font-family: 'poppins';
+    font-size: 22px;
+    padding-top: 15px;
+    color: rgb(68,13,130);
+  }
+      .header p{
+         font-size:14px;
+         color: rgb(68,13,130);
+         font-family: 'poppins';
+
+      }
+      .three-cards {
+        margin: 3px 0 0 0;
+      }
+      
+      .three-cards {
+        display: flex;
+      }
+      .card1 {
+        max-width: 80%;
+        margin: 30px auto;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background-color: #ffffff;
+        border-radius: 5px;
+      }
+      
+      .card1 {
+        margin: 30px 20px;
+      }
+      .card1 img {
+        width: 50px;
+        position: relative;
+        margin-left: 16px;
+        margin-top: 15px;
+      }
+      
+      .card1 p {
+        font-size: 15px;
+        padding: 0 20px;
+        /* margin top 30px */
+        margin: 15px 0;
+        line-height: 1.5;
+        font-family: 'poppins';
+        color: rgb(68,13,130);
+      }
+      .sub-card1 {
+        display: flex;
+        align-items: center;
+      }
+      .head-shot1 {
+        max-width: 10%;
+        margin-left: 9px;
+      }
+      .head-shot1 img {
+        /* image should be 100% of its container */
+        max-width: 100%;
+        border-radius: 100%;
+      }
+      .head-shot1-info {
+        margin-top: 10px;
+      }
+      .head-shot1-info p {
+        margin: 0;
+      }
+      
+      /* card 2 design begins*/
+      
+      .card2 {
+        max-width: 80%;
+        margin: 30px auto;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background-color: #ffffff;
+        border-radius: 5px;
+
+      }
+      
+      .card2 {
+        margin: 30px 20px;
+      }
+      .card2 img {
+        width: 50px;
+        position: relative;
+        margin-left: 16px;
+        margin-top: 15px;
+      }
+      .card2 p {
+        font-size: 15px;
+        padding: 0 20px;
+        margin: 15px 0;
+        line-height: 1.5;
+        font-family: 'poppins';
+        color: rgb(68,13,130);
+      }
+      .sub-card2 {
+        display: flex;
+        align-items: center;
+      }
+      .head-shot2 {
+        max-width: 10%;
+        margin-left: 9px;
+      }
+      .head-shot2 img {
+        /* image should be 100% of its container */
+        max-width: 100%;
+        border-radius: 100%;
+      }
+      .head-shot2-info {
+        margin-top: 10px;
+      }
+      .head-shot2-info p {
+        margin: 0;
+      }
+      
+      /* design 3 start */
+      
+      .card3 {
+        max-width: 80%;
+        margin: 30px auto;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background-color: #ffffff;
+        border-radius: 5px;
+      }
+      
+      .card3 {
+        margin: 15px 20px;
+      }
+      .card3 img {
+        width: 50px;
+        position: relative;
+        margin-left: 16px;
+        margin-top: 15px;
+      }
+      .card3 p {
+        font-size: 15px;
+        padding: 0 20px;
+        margin: 15px 0;
+        line-height: 1.5;
+        font-family: 'poppins';
+        color: rgb(68,13,130);
+      }
+      .sub-card3 {
+        display: flex;
+        align-items: center;
+      }
+      .head-shot3 {
+        max-width: 10%;
+        margin-left: 9px;
+      }
+      .head-shot3 img {
+        /* image should be 100% of its container */
+        max-width: 100%;
+        border-radius: 100%;
+      }
+      .head-shot3-info {
+        margin-top: 10px;
+      }
+      .head-shot3-info p {
+        margin: 0;
+      }
+      
+      /* Mobile View  for testimonial section*/
+      @media screen and (max-width: 428px) {
+        .three-cards {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+
+
+       /* section 8 */
+       
+
+       body{
+        height: 100vh;
+        width: 100%;
+       
+        
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 70vh;
+        width: 100%;
+        color: white;
+        background-image: linear-gradient( #1D0553 7.93%,#37075D 60.97%,#440D82 91.81%);
+
+    
+    }
+    
+    .first,
+    .second,
+    .third,.fourth
+     h2{
+        font-family: 'poppins';
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 0.15px;
+        color: white;
+        margin-bottom: 15px;
+
+        
+       
+    }
+    
+    .first,.second,.third,.fourth
+    p{
+        font-family: 'graphik-medium';
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: #ffffff;
+        
+
+
+        
+       
+    }
+    
+    @media only screen and (max-width:450px) {
+        .container{
+            display: inline-block;
+            margin: 20px;
+    }
+
+    }
  
   
