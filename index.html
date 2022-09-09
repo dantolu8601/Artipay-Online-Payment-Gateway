@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="css/style2.css" text="loginpage">
     <link rel="stylesheet" href="css/style3.css" text="registerpage">
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
-    <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Material Icon CDN -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <!-- This is the nav bar section  -->
@@ -27,6 +28,7 @@
         <nav class="nav_bar"> 
              <div class="hero_logo">
               <img src="images/logo.png" alt="please reload">
+              <!-- <img src="images/MobileView_Logo.svg" alt="please reload"> -->
              </div>
               <!-- replace this textarea with the logo -->
                 <div class="c-nav">
@@ -35,33 +37,33 @@
                     <!-- create a dropdown  -->
                     
                     <ul class="left">
-                        <li>
+                        <li ><a class="c-navItem" href="#">
                             Why Artipay
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z" width="10px"/></svg>          
-                        </li>
-                        <li>Customers</li>
-                        <li>Pricing</li>
-                        <li>
+                          </a></li>
+                        <li > <a class="c-navItem" href="#"> Customers</a></li>
+                        <li > <a class="c-navItem" href="#"> Pricing </a></li>
+                        <li > <a class="c-navItem" href="">
                           Learn
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                               <path d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"/></svg>
-                        </li>
+                            </a></li>
                     </ul>
                   </div>
                   <div class="c-nav-right">
                     <ul class="right">
-                      <li>
-                        Developers
+                      <li > <a class="c-navItem" href="#">
+                          Developers
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                             <path d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"/></svg>
-                      </li>
-                      <li>
+                          </a></li>
+                      <li class="c-navItem"> <a class="c-navItem" href="">
                         Support
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 246.6l-127.1 128C176.4 380.9 168.2 384 160 384s-16.38-3.125-22.63-9.375l-127.1-128C.2244 237.5-2.516 223.7 2.438 211.8S19.07 192 32 192h255.1c12.94 0 24.62 7.781 29.58 19.75S319.8 237.5 310.6 246.6z"/></svg>           
-                      </li>
-                      <li><a href="login.html"> <div class="login-text">Login</div></a></li>
-                      <li class="box">
-                        <a href="register.html">
+                        </a></li>
+                      <li ><a class="c-navItem"href="login.html"> <div class="login-text">Login</div></a></li>
+                      <li class="box" >
+                        <a class="c-navItem" href="register.html">
                           <span class="text-white"> Create free account</span>
                         </a>
                       </li>
@@ -69,8 +71,14 @@
                     </ul>
                   </div>
                 </div>
-                
+                <!-- Hamburger menu icon setup -->
+            <button class="hamburger">
+              <!-- material icons https://material.io/resources/icons/ -->
+              <i class="menuIcon material-icons">menu</i>
+              <i class="closeIcon material-icons">close</i>
+            </button>
             </div>
+            
         </nav>
       </nav> 
         
@@ -81,10 +89,10 @@
         <div class="center_text">
             Best way to make both<br> online and offline<br> payment
         </div>
-            <span class="center_subtext">
-                Artipay help businesses in Africa get paid by anyone, anywhere in the<br><div class="sub_text">world</div>
-            </span><br>
-            <a class="reg_text"href="register.html">Create an Account</a>  <a class="c_sales"href="#">or   Contact Sales</a>
+            <p class="center_subtext">
+                Artipay help businesses in Africa get paid by anyone, anywhere in the world
+            </p>
+            <a class="reg_text"href="register.html">Create free Account</a>  <a class="c_sales"href="#">or   Contact Sales</a>
 
         </div>
            
@@ -111,7 +119,7 @@
 
 <div id="image">
     <img class="stack" src="images/integration 1.svg" alt="desktop image">
-    <img class="stack1" src="image/mobile int.png" alt="mobile image">
+    <img class="stack1" src="images/mobile int.png" alt="mobile image">
 </div>
 </div>
 
@@ -121,7 +129,7 @@
 
 <!-- section 5-->
     <div class="trusted">
-      <h1 class="trustedtxt"> Trusted by 50,000+ Businesses</h1>
+      <h1 class="trustedtxt"> Trusted by 70,000+ Businesses</h1>
  </div>
 
  <div class="ps">
@@ -133,7 +141,7 @@
 
 
 <!-- section 6 -->
-<main>
+<section class="testimonialSection">
   <div class="main-content">
     <!--Header start-->
     <div class="header">
@@ -223,7 +231,7 @@
       </div>
     </div>
   </div>
-</main>
+</section>
 
 
 
@@ -241,16 +249,16 @@
         <p>For Fintechs</p>
         <p>For Schools</p>
         <p>For Betting</p>
-    </div>
+    </div><br>
     
     <div class="second">
     <h2>Pricing</h2>
     <p>Nigeria</p>
     <p>Ghana</p>
-    <p>South Africa</p>
+    <p>South Africa</p><br>
     
     <h2>Customers</h2>
-    <p>Testimonials</p>
+    <p>Testimonials</p><br>
     
     <h2>Learn</h2>
     <p>Blog</p>
@@ -258,23 +266,23 @@
     <p>Video Tutorials</p>
     <p>Decode Fintechs</p>
     <p>Commerce</p>
-    </div>
+    </div><br>
     
     <div class="third">
         <h2>Developers</h2>
         <p>Overview</p>
         <p>Documentation</p>
         <p>Integrations</p>
-        <p>Status Page</p>
+        <p>Status Page</p><br>
     
         <h2>Community</h2>
-        <p>Nigeria Lagos</p>
+        <p>Nigeria Lagos</p><br>
     
         <h2>Support</h2>
         <p>Help Desk</p>
         <p>Contact Us</p>
         <p>Why Was I Debited</p>
-    </div>
+    </div><br>
     
     <div class="fourth">
     <h2>About</h2> 
@@ -288,4 +296,5 @@
   </div>
 
 </body>
+<script src="Js/main.js"></script>
 </html>
