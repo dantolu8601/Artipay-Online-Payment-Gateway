@@ -156,13 +156,7 @@ li.box {
   line-height: 1.5;
   cursor: pointer;
 }
-/* .sub_text {
-  font-family: "poppins", sans-serif;
-  margin-top: 10px;
-  margin-left: 50px;
-  margin-bottom: 10px;
-  cursor: pointer;
-} */
+
 .c_sales {
   font-family: "poppins", sans-serif;
   text-decoration: none;
@@ -766,6 +760,108 @@ h1 {
   .three-cards {
     display: flex;
     flex-direction: column;
+  }
+}
+
+/* Section 7 */
+
+#section7 {
+  margin: 70px 0;
+  margin-left: 40px;
+  font-family: "Poppins", sans-serif;
+}
+.tryNow h3 {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+  color: #1e0553;
+  margin-bottom: 10px;
+}
+.tryNow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tryNowFlex {
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 10px;
+  gap: 24px;
+}
+
+.button7 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 10%;
+}
+
+.tryNow p {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 45px;
+  line-height: 64px;
+  color: #1e0553;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.tryNow button {
+  background-color: #c211a0;
+  padding: 15px 40px;
+  border: none;
+  margin: 0;
+  color: white;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.tryNow button:hover {
+  background-color: #960c7a;
+}
+
+@media only screen and (max-width: 660px) {
+  .tryNow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .tryNowFlex {
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    gap: 16px;
+    text-align: center;
+  }
+  .tryNow h3 {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .tryNow p {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0 15%;
+  }
+
+  .tryNow button {
+    padding: 14px 32px;
+    gap: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .button7 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
   }
 }
 
