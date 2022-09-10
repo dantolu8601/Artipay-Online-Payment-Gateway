@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'Boing';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../fonts/boing/boing_semibold_web.eot");
+    src: local("Boing SemiBold"), local("Boing-Semibold"), local("Boing Semibold WEB"), local("Boing"), url("../fonts/boing/boing_semibold_web.woff") format("woff"), url("../fonts/boing/boing_semibold_web.ttf") format("truetype"), url("../fonts/boing/boing_semibold_web.eot?#iefix") format("embedded-opentype"), url("../fonts/boing/boing_semibold_web.svg#WEBBoing-Semibold") format("svg");
+    text-rendering: optimizeLegibility;
+    unicode-range: U+000-5FF
+}
+
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+    src: url("../fonts/graphik/graphik_light.eot");
+    src: local("Graphik Light"), local("Graphik-Light"), url("../fonts/graphik/graphik_light.ttf") format("truetype"), url("../fonts/graphik/graphik_light.eot?#iefix") format("embedded-opentype"), url("../fonts/graphik/graphik_light.woff") format("woff"), url("../fonts/graphik/graphik_light.svg#Graphik-Light") format("svg");
+    text-rendering: optimizeLegibility;
+    unicode-range: U+000-5FF
+}
+
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-display: fallback;
+    src: url("../fonts/graphik/graphik_regular.eot");
+    src: local("Graphik Regular"), local("Graphik-Regular"), url("../fonts/graphik/graphik_regular.woff") format("woff"), url("../fonts/graphik/graphik_regular.ttf") format("truetype"), url("../fonts/graphik/graphik_regular.eot?#iefix") format("embedded-opentype"), url("../fonts/graphik/graphik_regular.svg#Graphik-Regular") format("svg");
+    text-rendering: optimizeLegibility;
+    unicode-range: U+000-5FF
+}
+
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 500;
+    font-display: fallback;
+    src: url("../fonts/graphik/graphik_medium.eot");
+    src: local("Graphik Medium"), local("Graphik-Medium"), url("../fonts/graphik/graphik_medium.eot?#iefix") format("embedded-opentype"), url("../fonts/graphik/graphik_medium.woff") format("woff"), url("../fonts/graphik/graphik_medium.ttf") format("truetype"), url("../fonts/graphik/graphik_medium.svg#Graphik-Medium") format("svg");
+    text-rendering: optimizeLegibility;
+    unicode-range: U+000-5FF
+}
+
+@font-face {
+    font-family: 'Graphik';
+    font-display: fallback;
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/graphik/graphik_semibold.eot");
+    src: local("Graphik Semibold"), local("Graphik-Semibold"), url("../fonts/graphik/graphik_semibold.woff2") format("woff2"), url("../fonts/graphik/graphik_semibold.woff") format("woff"), url("../fonts/graphik/graphik_semibold.ttf") format("truetype"), url("../fonts/graphik/graphik_semibold.svg#Graphik-Semibold") format("svg");
+    text-rendering: optimizeLegibility;
+    unicode-range: U+000-5FF
+}
+
+@font-face {
+    font-family: 'Tiempos Headline';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
+    src: local("Tiempos Headline Bold"), local("TiemposHeadline-Bold"), url("../fonts/tiempos/TiemposHeadline-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/tiempos/TiemposHeadline-Bold.woff") format("woff"), url("../fonts/tiempos/TiemposHeadline-Bold.ttf") format("truetype"), url("../fonts/tiempos/TiemposHeadline-Bold.svg#TiemposHeadline-Bold") format("svg");
+    src: url("../fonts/tiempos/TiemposHeadline-Bold.eot");
+    unicode-range: U+000-5FF
+}
+
+@font-face {
+    font-family: 'Moret';
+    font-style: normal;
+    font-display: swap;
+    font-weight: normal;
+    src: url("../fonts/moret/Moret-Regular.eot");
+    src: local("Moret Regular"), local("Moret Regular"), url("../fonts/moret/Moret-Regular.woff2") format("woff2"), url("../fonts/moret/Moret-Regular.woff") format("woff2"), url("../fonts/moret/Moret-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/moret/Moret-Regular.ttf") format("truetype"), url("../fonts/moret/Moret-Regular.svg#Moret-Regular") format("svg");
+    unicode-range: U+000-5FF
+}
+
+body{
+    color: #9d0580;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: "Graphik", "Boing", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+
+ul {
+    margin: 0
+}
+
+
+
+ul li {
+    margin-bottom: 5px;
+    position: relative
+}
+
+
+
+ul.u-list {
+    max-width: 90%;
+    position: relative;
+    z-index: 2
+}
+
+ul.u-list li {
+    font-weight: 500;
+    padding: 5px 0 5px 20px
+}
+
+ul.u-list li a {
+    text-decoration: underline;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline
+}
+
+ul.u-list li a:hover {
+    text-decoration: none
+}
+
+ul.u-list li:before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    height: 35px;
+    width: 40px;
+    border-radius: 6px;
+    z-index: -1;
+   
+}
+
+ul.u-list li:after {
+    content: '';
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 2px;
+    top: 10px;
+}
+
+ul.u-list--green li:before {
+    content: '';
+    background: #F1FEF4;
+    list-style-image: url('check.svg');
+}
+
+.fi-br-check{
+ color: purple;
+}    
+
+
+@media screen and (max-width: 600px) {
+    .u-text--centered-s {
+        text-align: center
+    }
+}
+.u-text--no-wrap {
+    white-space: nowrap
+}
+
+.l-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1040px;
+    padding: 0 16px;
+    position: relative
+}
+
+.l-container--lg {
+    max-width: 1240px
+}
+
+@media screen and (max-width: 980px) {
+    .l-container {
+        padding: 0 16px
+    }
+}
+
+button.c-button__text,
+ {
+    position: relative;
+    overflow: hidden;
+    color: #9d0580;
+}
+
+.c-button--link {
+    color: #9d0580;
+}
+
+.c-button__icon {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    padding-right: 8px;
+    color:#9d0580;
+}
+
+button__icon svg,
+.c-button__icon svg {
+    transition: all 0.5s cubic-bezier(0.17, 0.635, 0.54, 1.435)
+}
+
+button__icon svg path,
+.c-button__icon svg path {
+    transition: stroke 0.5s cubic-bezier(0.17, 0.635, 0.54, 1.435)
+}
+
+
+
+.u-flex {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.u-flex-reverse {
+    -ms-flex-order: 2;
+    order: 2
+}
+
+.u-flex-child {
+    -ms-flex: 1;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.u-flex-child:last-child {
+    margin-right: 0
+}
+
+@media screen and (max-width: 600px) {
+    .u-flex-child {
+        margin-right: 0
+    }
+}
+
+.u-flex-child--static {
+    -ms-flex: none;
+    flex: none;
+}
+
+.u-flex-child--w-33 {
+    -ms-flex: 0 1 calc(33.3% - 20px);
+    flex: 0 1 calc(33.3% - 20px)
+}
+
+@media screen and (max-width: 600px) {
+    .u-flex-child--w-33 {
+        width: 100%
+    }
+}
