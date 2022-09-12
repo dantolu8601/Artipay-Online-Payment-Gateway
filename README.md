@@ -1,13 +1,13 @@
 # Group-1-Team-4-Project
-# Techathon Group 1 Team 4 - Paystack Landing Page solution
+# Techathon Group 1 Team 4 - Artipay Landing Page solution
 
-This is a solution to the [Paystack Landing Page solution]
+This is a solution to the [Artipay Landing Page solution]
 
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Repository URL: []
+- Live Site URL: [www.artripay.netlify.app]
 
 
 ### Built with
