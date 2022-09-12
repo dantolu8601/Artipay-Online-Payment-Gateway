@@ -1,13 +1,13 @@
 # Group-1-Team-4-Project
-# Techathon Group 1 Team 4 - Paystack Landing Page solution
+# Techathon Group 1 Team 4 - Artipay Landing Page solution
 
-This is a solution to the [Paystack Landing Page solution]
+This is a solution to the [Artipay Landing Page solution]
 
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [https://github.com/dantolu8601/Artipay-Payment-Gateway/]
+- Live Site URL: [https://artipay.netlify.app/]
 
 
 ### Built with
@@ -16,6 +16,7 @@ This is a solution to the [Paystack Landing Page solution]
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Javascript
 
 
 ### What We learned
