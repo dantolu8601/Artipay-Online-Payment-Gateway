@@ -373,13 +373,14 @@ li svg {
 }
 .section2-Headings h2 {
   margin-bottom: 15px;
-  font-size: 45px;
+  font-size: 35px;
+  text-shadow: 0px 1px grey;
   font-weight: 600;
-  line-height: 64px;
+  
 }
 .section2-Headings p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
 }
 .section2Flex {
