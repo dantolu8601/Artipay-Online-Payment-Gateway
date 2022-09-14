@@ -23,8 +23,8 @@
   padding: 8px 16px;
   display: flex;
   justify-content: center;
-  font-family: "poppins", sans-serif;
-  font-size: 14px;
+  font-family: 'poppins', sans-serif;
+  font-size: 15px;
   font-weight: 500;
   cursor:pointer;
 }
@@ -529,7 +529,8 @@ a {
   margin-top: 17px;
   font-weight: bold;
   color: rgb(194, 17, 160);
-  font-family: "poppins";
+  font-family: 'poppins';
+   font-size: 15px;
 }
 
 #link {
@@ -540,11 +541,13 @@ a {
 .pb,
 .pc,
 .pd {
+  font-family: 'poppins';
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   color: rgb(68, 13, 130);
   margin-left: 5px;
-  margin-top: 10px;
+  margin-top: 9px;
+}
 }
 
 .diva,
@@ -585,7 +588,8 @@ a {
 }
 
 .dev {
-  font-size: 14px;
+  margin-top:5px;
+  font-size: 16px;
 }
 
 h1 {
@@ -822,8 +826,9 @@ h1 {
 
 .three-cards {
   display: flex;
+}
   
-  .three-cards { visibility: hidden; }
+ .three-cards { visibility: hidden; }
 /* Prevents :hover from triggering in the gaps between items */
 
 .three-cards > * { visibility: visible; }
@@ -838,7 +843,7 @@ h1 {
 .three-cards > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
 /* Fade in the currently hovered item */
   
-}
+
 .card1 {
   max-width: 80%;
   margin: 30px 20px;
@@ -1120,7 +1125,7 @@ h1 {
 .second h2,
 .third h2,
 .fourth h2 {
-  font-family: "poppins";
+  font-family: 'poppins';
   font-size: 17px;
   line-height: 20px;
   letter-spacing: 0.5;
@@ -1132,7 +1137,7 @@ h1 {
 .second p,
 .third p,
 .fourth p {
-  font-family: "Graphik";
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
