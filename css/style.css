@@ -544,10 +544,10 @@ a {
 .pd {
   font-family: 'poppins';
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   color: rgb(68, 13, 130);
   margin-left: 5px;
-  margin-top: 9px;
+  margin-top: 10px;
 }
 
 
@@ -661,7 +661,7 @@ h1 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 35px;
   line-height: 44px;
   color: #440d82;
   margin-bottom: 10px;
@@ -671,7 +671,7 @@ h1 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 24px;
   margin-bottom: 10px;
   color: #440d82;
