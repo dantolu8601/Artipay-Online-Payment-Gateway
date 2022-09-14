@@ -428,6 +428,13 @@ li svg {
   font-weight: 500;
   font-weight: bold;
 }
+#link.pp{
+  font-weight: bold;
+  color: rgb(194, 17, 160);
+  font-family: 'poppins';
+   font-size: 16px;
+  
+}
 .markedListFlex1,
 .markedListFlex2 {
   width: 50%;
@@ -531,9 +538,8 @@ a {
   font-weight: bold;
   color: rgb(194, 17, 160);
   font-family: 'poppins';
-   font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 0.25px;
+   font-size: 16px;
+    
 }
 
 #link {
