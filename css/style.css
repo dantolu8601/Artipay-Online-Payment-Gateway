@@ -340,7 +340,7 @@ li svg {
     background-color: white;
   }
   .hero_logo img {
-    content: url("../images/MobileView_Logo.svg");
+    content: url("../images/MobileView_Logo.png");
     height: 50px;
   }
   .hamburger {
