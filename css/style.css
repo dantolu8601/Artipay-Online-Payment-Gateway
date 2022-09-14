@@ -429,6 +429,7 @@ a {
   font-weight: bold;
   color: rgb(194, 17, 160);
   font-family: "poppins";
+  font-size: 14px;
 }
 
 #link {
@@ -439,11 +440,12 @@ a {
 .pb,
 .pc,
 .pd {
+  font-family: 'poppins';
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   color: rgb(68, 13, 130);
   margin-left: 5px;
-  margin-top: 10px;
+  margin-top: 9px;
 }
 
 .diva,
@@ -455,6 +457,7 @@ a {
 
 .pa {
   padding-right: 150px;
+  padding-top: 10px;
 }
 
 .tick,
@@ -484,7 +487,7 @@ a {
 }
 
 .dev {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 h1 {
