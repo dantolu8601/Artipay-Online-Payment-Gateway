@@ -1149,15 +1149,47 @@ h1 {
   color: #ffffff;
 }
 
+#bookmark {
+  background-image: linear-gradient(
+    #1d0553 7.93%,
+    #37075d 60.97%,
+    #440d82 91.81%
+  );
+  display: flex;
+  flex-direction: column;
+}
+.social {
+  text-align: center;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 50%;
+  color: hsla(0, 0%, 100%, 0.8);
+  border: 2px solid hsla(0, 0%, 100%, 0.8);
+}
+
+.fa:hover {
+  color: hsl(300, 69%, 71%);
+  border: 2px solid hsl(300, 69%, 71%);
+}
+
 @media only screen and (max-width: 450px) {
   .container {
-    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 100%;
     padding: 20px;
     background: #ffff;
     color: rgb(68, 13, 130);
   }
 
-  #bookmark {
+ #bookmark {
+    background-image: #ffffff;
     color: rgb(68, 13, 130);
   }
   .first h2,
@@ -1172,5 +1204,15 @@ h1 {
   .third p,
   .fourth p {
     color: rgb(68, 13, 130);
+  }
+  .social {
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 20px;
+  }
+  .fa {
+    color: #440d82;
+    border: 2px solid #440d82;
   }
 }
