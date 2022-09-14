@@ -532,6 +532,8 @@ a {
   color: rgb(194, 17, 160);
   font-family: 'poppins';
    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
 }
 
 #link {
