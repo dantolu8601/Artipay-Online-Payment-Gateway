@@ -284,6 +284,9 @@ li svg {
   span.text-white {
     font-size: 24px;
   }
+  .center_text {
+  padding-top: 120px;
+  }
 }
 
 /* Mobile view Responsiveness for Section 1 */
