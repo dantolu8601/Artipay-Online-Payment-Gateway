@@ -975,8 +975,7 @@ h1 {
   }
 }
 
-/* section 8 */
-
+/*section 8*/
 .container {
   display: flex;
   align-items: center;
@@ -985,17 +984,19 @@ h1 {
   width: 100%;
   color: white;
   background-image: linear-gradient(
+    to right,
     #1d0553 7.93%,
     #37075d 60.97%,
     #440d82 91.81%
   );
+  cursor: pointer;
 }
 
 .first h2,
 .second h2,
 .third h2,
 .fourth h2 {
-  font-family: "poppins";
+  font-family: 'poppins';
   font-size: 17px;
   line-height: 20px;
   letter-spacing: 0.5;
@@ -1007,11 +1008,11 @@ h1 {
 .second p,
 .third p,
 .fourth p {
-  font-family: "Graphik";
+  font-family:'poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 20px;
   letter-spacing: 1.5;
   color: #ffffff;
 }
