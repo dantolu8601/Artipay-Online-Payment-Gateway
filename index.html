@@ -13,6 +13,7 @@
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <!-- Material Icon CDN -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -35,8 +36,6 @@
           <!-- replace this textarea with the logo -->
           <div class="c-nav">
             <div class="c-nav-left">
-              <!-- on click of this element it will scroll to the footer -->
-              <!-- create a dropdown  -->
 
               <ul class="left">
                 <li><a class="c-navItem" href="#">
@@ -103,11 +102,13 @@
     </section>
   </header>
   <!-- The Body Text -->
-  <section class="second_section">
-    <div class="center_text">
+  <section  class="second_section">
+    <div data-aos="zoom-out-right"
+    data-aos-duration="3000" class="center_text">
       Best way to make both<br> online and offline<br> payment
     </div>
-    <p class="center_subtext">
+    <p data-aos="zoom-out-left" 
+    data-aos-duration="3000"class="center_subtext">
       Artipay help businesses in Africa get paid by anyone, anywhere in the world
     </p>
     <a class="reg_text" href="register.html">Create free Account</a> <a class="c_sales" href="#">or Contact Sales</a>
@@ -116,9 +117,83 @@
 
   </section>
 
+  <!-- Section 2 -->
+  <section id="section2">
+    <div class="section2-Headings">
+      <h2>Simple, easy payments</h2>
+      <p>Simplify all your business financial transaction.</p>
+    </div>
+
+    <div class="section2Flex">
+      <div data-aos="fade-right" 
+      data-aos-duration="3000" class="flexHero">
+        <img src="images/115 [Converted] 1.svg" alt="convert">
+      </div>
+      <div data-aos="fade-left"
+      data-aos-duration="3000" class="flexContent">
+        <h3>Choose your mode of payment</h3>
+        <p class="det">Give your customers the flexibility of payments. Integrate Artipay once and let your Customers
+          pay you however they want.
+        </p>
+        <div class="markedList">
+          <div class="markedListFlex1">
+            <div class="mode">
+              <img src="images/tick1.png" alt="tick">
+              <p>Card</p>
+            </div>
+            <div class="mode">
+              <img src="images/tick1.png" alt="tick">
+              <p>Bank Account</p>
+            </div>
+            <div class="mode">
+              <img src="images/tick1.png" alt="tick">
+              <p>Bank Transfer</p>
+            </div>
+            <div class="mode">
+              <img src="images/tick1.png" alt="tick">
+              <p>USSD</p>
+            </div>
+          </div>
+          <div class="markedListFlex2">
+            <div class="mode">
+              <img src="images/tick1.png" alt="tick">
+              <p>Apple Pay</p>
+            </div>
+            <div class="mode">
+              <img src="images/tick1.png" alt="tick">
+              <p>Visa QR</p>
+            </div>
+            <div class="mode">
+              <img src="images/tick1.png" alt="tick">
+              <p>Mobile money</p>
+            </div>
+            <div class="mode">
+              <img src="images/tick1.png" alt="tick">
+              <p>POS</p>
+            </div>
+          </div>
+        </div>
+          <div class="sendPay">
+            <h3>Receive and send payment with maximum success rate</h3>
+            <p class="det">We automatically route payments through the most optimal channels, 
+              ensuring the highest transaction success rates in the market. 
+            </p>
+          </div>
+          <a href="">
+            <div id="link"> <img class="arrow" src="images/arrow1.png" alt="arrow">
+              <p class="pp"> Find out how we achieve high success rate</p>
+            </div>
+          </a>
+      </div>
+    </div>
+
+  </section>
+
   <!-- section 3 -->
   <div id="whole">
-    <div class="text">
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500" class="text">
       <h1>Create a custom payments experiences with our easy-to-use APIs</h1>
 
       <div id="list">
@@ -149,7 +224,9 @@
 
     </div>
 
-    <div id="image">
+    <div data-aos="fade-up"
+    data-aos-easing="linear"
+    data-aos-duration="1500"id="image">
       <img class="stack" src="images/integration 1.svg" alt="desktop image">
       <img class="stack1" src="images/mobile int.png" alt="mobile image">
     </div>
@@ -157,11 +234,15 @@
 
   <!-- section 4 -->
   <section class="section_4">
-    <div class="safeImage">
+    <div  data-aos="fade-down"
+    data-aos-anchor-placement="top-bottom"  
+    data-aos-duration="3000" class="safeImage">
       <img class="safe1" src="images/safe 1.svg" alt="Safe 1">
     </div>
 
-    <div class="content">
+    <div  data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom"
+    data-aos-duration="3000" class="content">
       <div class="content1">
         <h3>Safe and Convenient transaction</h3>
         <p>Artipay's combination of automated and manual fraud systems
@@ -210,7 +291,9 @@
       <div class="three-cards">
         <!--First Card start-->
 
-        <div class="card1">
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" class="card1">
 
           <img src="images/Stripe-Logo-blue.png" alt="Stripe logo" />
 
@@ -232,7 +315,9 @@
         <!--First card end here-->
 
         <!--Second card starts here-->
-        <div class="card2">
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"class="card2">
           <img src="images/Visa-_-Color.png" alt="Visa logo" />
           <p>
             Our investment in Artipay aligns with the kind of
@@ -252,7 +337,9 @@
         </div>
         <!--Second card ends here-->
         <!--Last card-->
-        <div class="card3">
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"class="card3">
           <img src="images/ycombinator-logo.png" alt="ycombinator logo" />
           <p>
 
@@ -282,7 +369,7 @@
         <p>Start accepting payments immediately</p>
       </div>
       <div class="button7">
-        <button>Create free account</button>
+        <a href="register.html"> <button>Create free account</button></a>
       </div>
     </div>
   </Section>
@@ -347,8 +434,12 @@
         <p>Privacy & Terms</p>
       </div>
     </div>
-
+    <script src="Js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
-<script src="Js/main.js"></script>
+
 
 </html>
