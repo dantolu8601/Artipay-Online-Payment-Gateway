@@ -26,6 +26,7 @@
   font-family: "poppins", sans-serif;
   font-size: 14px;
   font-weight: 500;
+  cursor:pointer;
 }
 .banner_content img {
   display: flex;
@@ -52,6 +53,36 @@ ul li {
   font-family: "poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
+  position: relative;
+  display: block;
+}
+ul li:before, ul li:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #fff;
+}
+ul li:before {
+  left: -2.5px;
+}
+ul li:after {
+  right: 2.5px;
+  background: #fff;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+ul li:hover:before {
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+ul li:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
 }
 ul li a {
   text-decoration: none;
@@ -65,14 +96,7 @@ span.text-white {
   font-weight: bold;
   font-family: "poppins", sans-serif;
 }
-ul li:hover {
-  color: red;
-  opacity: 0.9;
-}
-ul li a:hover {
-  color: red;
-  opacity: 0.9;
-}
+
 
 .first_section {
   background-image: url(../images/Rectangle\ 25.png);
@@ -167,6 +191,7 @@ li.box {
   margin-left: 10px;
   font-size: 15px;
   font-weight: 600;
+  letter-spacing: 2px;
 }
 li svg {
   width: 7px;
@@ -400,6 +425,7 @@ li svg {
   font-size: 14px;
   margin-bottom: 0;
   font-weight: 500;
+  font-weight: bold;
 }
 .markedListFlex1,
 .markedListFlex2 {
@@ -764,6 +790,7 @@ h1 {
 
 .main-content {
   background: #f9fbfc;
+  cursor:pointer;
 }
 
 .header {
@@ -795,6 +822,22 @@ h1 {
 
 .three-cards {
   display: flex;
+  
+  .three-cards { visibility: hidden; }
+/* Prevents :hover from triggering in the gaps between items */
+
+.three-cards > * { visibility: visible; }
+/* Brings the child items back in, even though the parent is `hidden` */
+
+.three-cards > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+/* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
+
+.three-cards:hover > * { opacity: 0.4; transform: scale(0.9); }
+/* Fade out all items when the parent is hovered */
+
+.three-cards > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
+/* Fade in the currently hovered item */
+  
 }
 .card1 {
   max-width: 80%;
