@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   font-family: 'poppins', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   cursor:pointer;
 }
@@ -428,13 +428,7 @@ li svg {
   font-weight: 500;
   font-weight: bold;
 }
-#link.pp{
-  font-weight: bold;
-  color: rgb(194, 17, 160);
-  font-family: 'poppins';
-   font-size: 16px;
-  
-}
+
 .markedListFlex1,
 .markedListFlex2 {
   width: 50%;
